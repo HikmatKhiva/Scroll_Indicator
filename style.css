@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Main Style  */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header Style  */
+.main-header {
+    text-align: center;
+    padding: 10px 0;
+    box-shadow:0 0 12px rgba(0, 0, 0, 10%);
+    color: coral;
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* Main Style  */
+.scroll-indicator {
+    border-radius: 6px;
+    position: relative;
+    position:fixed;
+    top: 0;
+    left: -5px;
+    width: 0 ;
+    height: 6px;
+    background-color: coral;
+    z-index: 9999;
+}
+main {
+    background: url(images/gabriel-beaudry-70rHtD11NNk-unsplash.jpg)no-repeat center /cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-title {
+    padding: 60px 10px;
+    background: #fff;
+    position: relative;
+    /* top: -50px; */
+    color:coral;
+    font-size: 20px;
+}
+/* Title Style  */
+.title-one h3,.title-two h3 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 28px;
+    color:coral;
+}
+.title-one p, .title-two p {
+    margin: 10px 0 ;
+} 
+.card-img {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+.card-img img {
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 100%;
+    height: 100%; 
+}
